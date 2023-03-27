@@ -7,6 +7,12 @@ public class Main {
 
         System.out.println("Suma: " + Main.sumasTres(2,5,8));
 
+        Coche coche = new Coche();
+
+        coche.incrementarPuerta();
+
+        System.out.println("Cantidad de Puertas del coche: " + coche.getNroPuertas());
+
 
     }
 }
